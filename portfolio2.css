@@ -1,37 +1,148 @@
 *{
-    margin:0;
-    padding:0
+    margin:0px;
+    padding:0px
 }
 
-.sidebar{ 
-    background-color:rgb(31, 31, 125);
-    color:rgb(242, 245, 249);
-    width:10vw;
-    font-family: 'Fira Sans', sans-serif;
-    height:100vh;
+body{
+    background-color: rgb(4, 4, 42);
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
-.sidebar nav{
-    padding:45px;
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:80px;
+    background-color:  rgb(18, 18, 62);
 }
 
-.sidebar nav li{
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li{
     list-style: none;
-    font-size: 30px;
-    padding: 33px 0px;
+    margin: 0px 30px;
 }
 
-.main{
-    background-color:aqua;
-    width:90vw;
+nav ul li a{
+    text-decoration: none;
+    color: white;
 }
 
-.container{
-    display:flex; 
+nav ul li a:hover{
+    color:rgb(170, 107, 228);
+    font-size: 1.1rem;
 }
 
-.infocontainer{
-    background-color:rgb(21, 122, 122);
-    height:40vh;
-    width:80vw;
+main hr{
+    border: 0;
+    border-radius:2px;
+    height:1.2px;
+    margin:18px 76px;
+    background:rgb(170, 107, 228);;
+}
+
+.right li{
+    padding: auto;
+}
+
+.left{
+    font-size: 2rem;
+}
+
+.firstsection{
+    display:flex;
+    justify-content:space-around;
+    margin:110px 0px;
+    align-items: center;
+}
+
+.firstsection > div{
+    width: 30%;
+}
+
+.leftsection{
+    font-size: 3rem;
+}
+
+.rightsection img{
+    width:80%;
+}
+
+.purple{
+    color:rgb(170, 107, 228)
+}
+
+#element{
+    color:rgb(170, 107, 228)
+}
+
+.secondSection{
+    max-width :85vw;
+    margin:auto;
+    height:20vh;
+}
+
+.secondSection h1{
+    font-size: 1.9rem;
+}
+
+.past{
+    font-size: 1.5rem;
+    margin: 29px 0px 0px 0px;
+    height: 18px;
+    padding: 10px 10px 10px 11px;
+}
+
+.box{
+    display: flex;
+
+}
+
+.btn{
+    border: none;
+    border-radius: 2%;
+    padding: 10px 20px;
+    background: rgb(170, 107, 228);
+    color:white;
+    text-align: center;
+    font-size: 19px;
+    width:20vw;
+}
+
+.btn a{
+    text-decoration: none;
+    color:white;
+}
+
+.btn a:hover{
+    font-style: oblique;
+}
+
+.download button{
+    width: 20%;
+    margin: 10px 100px;
+    border: none;
+    border-radius: 2%;
+    padding: 10px 20px;
+    background: rgb(170, 107, 228);
+    color:white;
+    text-align: center;
+    font-size: 19px;
+    width:20vw;
+}
+
+.last {
+    text-align: center;
+    align-content: center;
+}
+
+.end hr{
+    margin-left: 40%;
+    align-items:center;
+    max-width:20%
 }
