@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="Stylesheet" href="./src/css/portfolio2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/portfolio2.html">Home</a></li>
+                    <li><a href="./src/about.html">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contact</a></li>
+                    <li><a href="./src/social.html">Social</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Ashish Katiwal</span>
+                <div>and i am a </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="https://cdn-icons-png.flaticon.com/512/5072/5072860.png" alt="developers image">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+
+            <h1><center>Qualification</center></h1>
+
+            <div class="box">
+                <div class="past"><a href="./src/images/tenth.png"><button class="btn">secondary</button></a></div>
+                <div class="past"><a href="./src/images/Screenshot 2023-08-24 012444.png"><button class="btn">Senior Secondary</button></a></div>
+                <div class="past"><a><button class="btn">UG</button></a></div>
+                <div class="past"><a><button class="btn">PG</button></a></div>
+            </div>
+        </section>
+        <br><br><br>
+
+        <br><hr>
+    </main>
+
+    <div class="download">
+        <a href="./src/ashish katiwal.docx"><button class="">Download Resume</button></a>
+    </div>
+<br><br>
+
+    <foot class="end">
+        <hr><br>
+        <div class="last">
+            <h2>For further Information</h2>
+            Contact: <a href="mailto:ashish.katiwal@gmail.com">Ashish.katiwal@gmail.com</a>
+        </div>
+        <br><hr>
+    </foot>
+    <br><br><br>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Developer','Programmer','Data Scientist.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
